@@ -35,7 +35,7 @@ Em tiếp tục sử dụng SAM 2.1 cho hai ảnh sau vì đã có kết quả t
 Lỗi nào **không sửa được bằng đổi ngưỡng** (ví dụ tuk-tuk bị gọi `car`)? Sửa thế nào? 
 - Một số lỗi như tuk-tuk bị nhận diện nhầm thành truck/car là lỗi phân loại. Giảm hoặc tăng confidence không đảm bảo sửa được nhãn sai. Khi review, tôi kiểm tra đặc điểm vật thể và sửa class thủ công trên CVAT.
 
-Box **điểm cao mà sai** hoặc **điểm thấp mà đúng** (ảnh nào): <<>>
+Box **điểm cao mà sai** hoặc **điểm thấp mà đúng** (ảnh nào):
 - Ảnh img_0.34.jpg: Cụ thể là qua mắt là xe tải nhưng mà AI gán nhãn lại là xe three_wheeler và điểm conf 0.85
 
 Giới hạn của threshold sweep:
