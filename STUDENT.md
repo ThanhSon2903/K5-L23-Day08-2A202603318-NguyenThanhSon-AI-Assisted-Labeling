@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2B
 - Tài khoản GitHub: Thanhson2903
 - Repo bài nộp (URL): https://github.com/ThanhSon2903/K5-L23-Day08-2A202603318-NguyenThanhSon-AI-Assisted-Labeling
-- Commit chốt bài (hash): <<>>
+- Commit chốt bài (hash): 4877f6b
 - Máy: WIN11, GPU
 - CVAT (Docker): 2.4.9
 
