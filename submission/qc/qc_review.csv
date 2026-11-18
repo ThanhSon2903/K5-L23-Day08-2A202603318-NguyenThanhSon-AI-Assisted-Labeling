@@ -1,0 +1,8 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,,Nguyen Thanh Son,"Kiểm tra box three_wheeler và person ở khu vực xe chở hàng; chú ý box phương tiện có bao phủ đúng toàn bộ xe và không lấy thừa người."
+img_006.jpg,,,Nguyen Thanh Son,"Ảnh đông người và xe máy, nhiều bounding box gần nhau; kiểm tra các box person và motorbike có bị chồng lấn hoặc gán trùng object không."
+img_013.jpg,119,loose,Nguyen Thanh Son,"Kiểm tra bounding box three_wheeler của xe tuk-tuk; box lớn cần được đối chiếu với phạm vi thực tế của phương tiện, tránh lấy thừa vùng nền hoặc người."
+img_014.jpg,,,Nguyen Thanh Son,"Kiểm tra lại class của các phương tiện ở khu vực giữa và bên phải ảnh; đặc biệt chú ý trường hợp wrong_class."
+img_022.jpg,250,ambiguous,Nguyen Thanh Son,"Xe máy ở sát mép phải và phía dưới ảnh bị cắt một phần; cần kiểm tra phạm vi object nhìn thấy và quy tắc gán nhãn object bị khuất."
+img_028.jpg,,,Nguyen Thanh Son,"Mật độ xe máy và người rất cao, nhiều box chồng lấn; cần kiểm tra duplicate, wrong_class và các object bị bỏ sót."
+img_034.jpg,469,wrong_class,Nguyen Thanh Son,"Kiểm tra lại box được dự đoán là truck ở khu vực giữa phía trên ảnh; đối chiếu hình dạng phương tiện để xác nhận class."
